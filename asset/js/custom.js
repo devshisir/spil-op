@@ -9,25 +9,31 @@ $(document).ready(function() {
     })
 
     var j = jQuery; 
-  var addInput = '#qty';
-  var n = 5;
-  
-  //Set default value to n (n = 1)
-  j(addInput).val(n);
+    var addInput = '#qty';
+    var n = 5;
+    j(addInput).html(n);
+    j('#plus_btn').on('click', function(){
+      j(addInput).html(++n);
+    })
+    j('#minus_btn').on('click', function(){
+      if (n >= 1) {
+        j(addInput).html(--n);
+      } else {
+      }
+    });
 
-  //On click add 1 to n
-  j('#plus_btn').on('click', function(){
-    j(addInput).val(++n);
-  })
-
-  j('#minus_btn').on('click', function(){
-    //If n is bigger or equal to 1 subtract 1 from n
-    if (n >= 1) {
-      j(addInput).val(--n);
-    } else {
-      //Otherwise do nothing
-    }
-  });
+    var addInput2 = '#qty2';
+    var n = 7;
+    j(addInput2).html(n);
+    j('.plus_btn2').on('click', function(){
+      j(addInput2).html(++n);
+    })
+    j('.minus_btn2').on('click', function(){
+      if (n >= 1) {
+        j(addInput2).html(--n);
+      } else {
+      }
+    });
 
 
     
