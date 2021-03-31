@@ -64,13 +64,13 @@
                      </div>
                      <div class="filter_area">
                         <div class="row align-items-center">
-                           <div class="col-xl-7">
+                           <div class="col-xl-7 col-lg-7 col-md-6 col-sm-7">
                               <div class="left_input">
                                  <img src="./asset/img/icons/search.png" alt="">
                                  <input type="text" placeholder="Søg i rum…">
                               </div>
                            </div>
-                           <div class="col-xl-5">
+                           <div class="col-xl-5 col-lg-5 col-md-6 col-sm-5">
                               <div class="filter_right_action text-end">
                                  <a href="#">
                                     Nyt rum
@@ -213,12 +213,26 @@
             navText: ['<i class="fal fa-angle-left"></i>','<i class="fal fa-angle-right"></i>'],
             responsive:{
                0:{
-                  items:1
+                  items:1,
+                  stagePadding: 40,
+                  nav: false,
+                  margin:10,
                },
-               600:{
+               576:{
+                  items:1,
+                  stagePadding: 120,
+               },
+               768:{
+                  items:2
+               },
+               992:{
+                  items:2,
+                  margin:30,
+               },
+               1200:{
                   items:3
                },
-               1000:{
+               1400:{
                   items:4,
                }
             }
