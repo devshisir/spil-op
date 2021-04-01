@@ -4,6 +4,36 @@
 #dashboard_page .dashboard_card_wrapper .container-fluid {
    padding-left: 0%;
 }
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .right_clock_result .time_result_summary ul li .time_amount {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   padding: 19px 24px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box{
+   padding: 19px 24px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li {
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li svg {
+   height: 38px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul {
+   gap: 10px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box{
+   padding: 19px 24px;
+}
+#spillet_page_area .spillet_left_box .step_view_box_result img {
+   height: 699px;
+}
 }
 
 @media (min-width: 1710px) and (max-width: 1880px) {
@@ -25,8 +55,113 @@
    padding-left: 0%;
 } 
 }
-@media (min-width: 1200px) and (max-width: 1300px) {
-   
+@media (min-width: 1200px) and (max-width: 1399px) {
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .right_clock_result .time_result_summary ul li .time_amount {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   padding: 19px 24px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box{
+   padding: 19px 24px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li {
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li svg {
+   height: 38px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul {
+   gap: 10px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box{
+   padding: 19px 24px;
+}
+#spillet_page_area .spillet_left_box .step_view_box_result img {
+   height: 699px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .minus_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .minus_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .plus_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .plus_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .right_clock_result .svg_clock svg{
+   height: 150px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .minus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .minus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .plus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .plus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .top_belo_title h3{
+   font-size: 20px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .minus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .minus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .plus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .plus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
 }
 
 
@@ -57,6 +192,129 @@
 }
 #rum_page_content .rum_page_banar .bg_banar_content h3{
    font-size: 30px;
+}
+#start_rude_page {
+   padding: 50px 0px;
+}
+#nyt_rum_content .nyt_rum_content_content .top_title h2{
+   font-size: 42px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .ny_rude_3_content .ny_rude_3_item_box .feater_list ul li{
+   display: flex;
+}
+#spillet_page_area .spillet_left_box .step_view_box_result img{
+   height: 100%;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right >.row{
+   flex-direction: column-reverse;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   padding: 20px 26px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box{
+   padding: 20px 26px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box{
+   padding: 20px 26px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li {
+   margin-right: 0px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .minus_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .minus_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .plus_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .plus_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .right_clock_result .svg_clock svg{
+   height: 150px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .minus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .minus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .plus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .plus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .top_belo_title h3{
+   font-size: 17px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .minus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .minus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .plus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .plus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li{
+   height: 60px;
+   width: 60px;
+   line-height: 60px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li svg {
+   height: 41px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul {
+   gap: 14px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .top_ups_title h3 {
+   font-size: 20px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action{
+   margin-top: 10px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action h3{
+   font-size: 20px;
 }
 }
 
@@ -105,6 +363,36 @@
 #rum_page_content .rum_page_banar .bg_banar_content h3{
    font-size: 30px;
 }
+#start_rude_page {
+   padding: 50px 0px;
+}
+#start_rude_page .start_rude_page_main_content .left_box{
+   padding: 40px 27px;
+}
+#start_rude_page .start_rude_page_main_content .right_box{
+   padding: 40px 27px;
+}
+#nyt_rum_content .nyt_rum_content_content .top_title h2{
+   font-size: 42px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .ny_rude_3_content .ny_rude_3_item_box_last{
+   margin-top: 50px;
+}
+#spillet_page_area .spillet_left_box .step_view_box_result img {
+   height: 100%;
+}
+#spillet_page_area .spillet_left_box .step_main_progress_bar {
+   margin-top: 34px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   margin-top: 40px;
+}
+#spillet_page_area .spillet_left_box {
+   padding-right: 0px;
+}
+#global_header .spillet_link_middle h4 {
+   font-size: 19px;
+}
 }
 
 
@@ -150,7 +438,7 @@
    font-size: 38px;
 }
 #nyt_rum_content {
-   padding: 100px 0px;
+   padding: 70px 0px;
 }
 #rum_page_content .rum_page_grid_content .rum_page_grid_item {
    padding: 40px 20px;
@@ -164,6 +452,41 @@
 }
 #rum_page_content .rum_page_banar .bg_banar_content h3{
    font-size: 30px;
+}
+#start_rude_page {
+   padding: 50px 0px;
+}
+#start_rude_page .start_rude_page_main_content .left_box{
+   margin-bottom: 25px;
+}
+#nyt_rum_content .nyt_rum_content_content .top_title h2{
+   font-size: 35px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .ny_rude_3_content .ny_rude_3_item_box{
+   margin-bottom: 30px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .ny_rude_3_content .ny_rude_3_item_box_last{
+   margin-top: 30px;
+}
+#spillet_page_area .spillet_left_box .step_view_box_result img {
+   height: 100%;
+}
+#spillet_page_area .spillet_left_box .step_main_progress_bar {
+   margin-top: 34px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   margin-top: 40px;
+}
+#spillet_page_area .spillet_left_box {
+   padding-right: 0px;
+}
+#global_header .spillet_link_middle h4 {
+   font-weight: 500;
+   font-size: 14px;
+   color: #25282E;
+}
+#global_header {
+   padding: 10px 0px;
 }
 }
 
@@ -314,15 +637,181 @@
    padding: 30px 0px;
    background: #5117BC;
 }
-
-
-
-
-
-
-
-
-
+#start_rude_page {
+   padding: 30px 0px;
+}
+#start_rude_page .start_rude_page_main_content .left_box{
+   margin-bottom: 25px;
+}
+#start_rude_page .top_title h3 {
+   font-size: 29px;
+}
+#start_rude_page .top_title p{
+   font-size: 14px;
+}
+#nyt_rum_content .nyt_rum_content_content .top_title h2{
+   font-size: 24px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .step_times_box ul li .time_box {
+   display: block;
+   width: 70px;
+   height: 70px;
+   font-size: 38px;
+   line-height: 70px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .step_times_box ul li {
+   margin: 0px 5px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .ny_rude_3_content .ny_rude_3_item_box{
+   margin-bottom: 30px;
+}
+#nyt_rum_content .nyt_rum_content_content .main_form_step_content .ny_rude_3_content .ny_rude_3_item_box_last{
+   margin-top: 30px;
+}
+#spillet_page_area .spillet_left_box .step_view_box_result img {
+   height: 100%;
+}
+#spillet_page_area .spillet_left_box .step_main_progress_bar {
+   margin-top: 34px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   margin-top: 40px;
+}
+#spillet_page_area .spillet_left_box {
+   padding-right: 0px;
+}  
+#spillet_page_area .spillet_left_box .step_view_box_result img{
+   height: 100%;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right >.row{
+   flex-direction: column-reverse;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right{
+   padding: 20px 26px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box{
+   padding: 20px 26px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box{
+   padding: 20px 26px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li {
+   margin-right: 10px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .minus_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .minus_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .plus_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .plus_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 4px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .right_clock_result .svg_clock svg{
+   height: 150px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .minus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .minus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .plus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li .plus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .top_belo_title h3{
+   font-size: 17px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .minus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .minus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .plus_btn{
+   font-size: 14px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li .plus_btn span{
+   height: 35px;
+   width: 35px;
+   line-height: 35px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li{
+   height: 60px;
+   width: 60px;
+   line-height: 60px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul li svg {
+   height: 41px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .usp_step_info_box ul {
+   gap: 10px;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .top_ups_title h3 {
+   font-size: 20px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action{
+   margin-top: 10px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action h3{
+   font-size: 20px;
+}
+#spillet_page_area .spillet_right_box .clock_box_spillet_right .right_clock_result{
+   text-align: center;
+}
+#spillet_page_area .spillet_left_box .step_main_progress_bar .step_cpunt_number .number_box {
+   height: 30px;
+   width: 30px;
+   line-height: 26px;
+   font-size: 12px;
+}
+#global_header .user_dropdown .dropdown-toggle{
+   min-height: 75px;
+}
+#global_header{
+   padding: 0px 0px;
+}
+#global_header .spillet_link_middle{
+   display: none;
+}
 }
 
 

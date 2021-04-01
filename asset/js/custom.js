@@ -34,6 +34,41 @@ $(document).ready(function() {
       } else {
       }
     });
+  $('select').niceSelect();
+
+  $('.dashboard_card_slider_active').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    stagePadding: 80,
+    smartSpeed: 1000,
+    navText: ['<i class="fal fa-angle-left"></i>','<i class="fal fa-angle-right"></i>'],
+    responsive:{
+       0:{
+          items:1,
+          stagePadding: 40,
+          nav: false,
+          margin:10,
+       },
+       576:{
+          items:1,
+          stagePadding: 120,
+       },
+       768:{
+          items:2
+       },
+       992:{
+          items:2,
+          margin:30,
+       },
+       1200:{
+          items:3
+       },
+       1400:{
+          items:4,
+       }
+    }
+ })
 
 
     
