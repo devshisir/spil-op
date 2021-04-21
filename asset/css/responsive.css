@@ -719,9 +719,9 @@
    font-size: 14px;
 }
 #spillet_page_area .spillet_right_box .clock_box_spillet_right .left_clock_action .pause_time button span{
-   height: 35px;
-   width: 35px;
-   line-height: 35px;
+   height: 45px;
+   width: 45px;
+   line-height: 45px;
    font-size: 14px;
    margin-right: 4px;
 }
@@ -811,6 +811,15 @@
 }
 #global_header .spillet_link_middle{
    display: none;
+}
+#spillet_page_area .spillet_right_box .ups_er_info_box .ups_er_action ul li button{
+   margin-bottom: 15px;
+}
+#spillet_page_area .spillet_right_box .belo_nis_info_box .belonnis_belo_action ul li button{
+   margin-bottom: 15px;
+}
+#global_header .logo_box a img {
+   height: 30px;
 }
 }
 
